@@ -21,6 +21,11 @@
   height: 3rem;
   border-radius: 0.75rem;
 }
+@media (max-width : 1028px){
+  .gradient-background{
+    padding-bottom: 20px;
+  }
+}
 
 .profile-img {
   height: 100px;
