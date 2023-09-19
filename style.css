@@ -48,3 +48,8 @@ nav{
   justify-content: center;
   text-shadow: black solid 1px;
 }
+@media (max-width : 1028px){
+  .gradient-background{
+    padding-bottom: 20px;
+  }
+}
