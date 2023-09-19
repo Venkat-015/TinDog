@@ -1,0 +1,50 @@
+.gradient-background {
+  background: linear-gradient(
+    to top right,  #e21d9d 50%,#27cee1 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite ;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+  span{color:papayawhip ;
+    text-transform:initial;
+  
+}
+.navbar-brand{
+ font-size:xx-large;
+ font-weight: 1000;
+ color: black;
+ padding:1.5%;
+ margin-left: 2%;
+}
+nav{
+  background-color:transparent;
+}
+.nav-item{
+  display:flex;
+  padding: 0 18px;
+  font-size: larger;
+  justify-content: center;
+  text-shadow: black solid 1px;
+}
